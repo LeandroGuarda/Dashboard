@@ -1,0 +1,35 @@
+# ### Ir a la pagina principal
+POST http://localhost:3001/users
+Content-Type: application/json
+
+{
+"firstName":"leandro",
+"lastName":"Ruben",
+"email":"leandro.guarda@correo.com",
+"password":"123456"   
+}
+
+### Hola mundo
+GET http://localhost:3001/
+
+
+#### Register: Crea el usuario y genera un token
+POST http://localhost:3001/register
+Content-Type: application/json
+
+{
+"firstName": "carlos",
+  "lastName": "Andres",
+  "email": "carlos.guarda@correo.com",
+  "password":"leandro123"
+  
+}
+
+### Login
+POST http://localhost:3001/auth/login
+Content-Type: application/json
+
+{
+  "email": "carlos.guarda@correo.com",
+  "password":"leandro123"
+}
