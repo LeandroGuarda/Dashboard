@@ -1,10 +1,17 @@
 "use client"
+
 import React from 'react';
 import { useState } from 'react';
 import styled from 'styled-components';
 import { toast, ToastContainer } from 'react-toastify';
+import { useRouter } from 'next/navigation';
+
+
+
+
 
 const Form = () => {
+  const router = useRouter();
 
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -38,6 +45,7 @@ const Form = () => {
 
       if (response.ok) {
         console.log('Login con Éxito!', data);
+        router.push('/dashboard');
       } else {
         console.log('Error al iniciar sesión:', data.msg);
       }

@@ -27,12 +27,6 @@ const Links = [
         href:"dashboard/calendar",
         icon: FaCalendar
 
-    },
-    {
-        name: "form",
-        href:"dashboard/form",
-        icon: FaCalendar
-
     }
 
 ]

@@ -6,7 +6,7 @@ import { FaTiktok } from "react-icons/fa";
  
 const Footer = () => {
   return (
-    <footer className=" bg-amber-950 text-white p-8">
+    <footer className=" bg-slate-800 text-white p-8">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Sección 1: Información de la empresa */}
         <div>
