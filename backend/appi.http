@@ -1,16 +1,20 @@
-# ### Ir a la pagina principal
+### Home
+GET http://localhost:3001/
+
+
+
+### Registrar un usuario.
 POST http://localhost:3001/users
 Content-Type: application/json
 
 {
-"firstName":"leandro",
-"lastName":"Ruben",
-"email":"leandro.guarda@correo.com",
+"firstName":"Ruben",
+"lastName":"Guarda",
+"email":"ruben.guarda@correo.com",
 "password":"123456"   
 }
 
-### Hola mundo
-GET http://localhost:3001/
+
 
 
 #### Register: Crea el usuario y genera un token
@@ -20,7 +24,7 @@ Content-Type: application/json
 {
 "firstName": "carlos",
   "lastName": "Andres",
-  "email": "carlos.guarda@correo.com",
+  "email": "carlos.guarda23@correo.com",
   "password":"leandro123"
   
 }
@@ -30,6 +34,6 @@ POST http://localhost:3001/auth/login
 Content-Type: application/json
 
 {
-  "email": "carlos.guarda@correo.com",
+  "email": "carlos.guarda23@correo.com",
   "password":"leandro123"
 }

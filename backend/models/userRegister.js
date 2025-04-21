@@ -33,7 +33,7 @@ userSchema.pre('save', async function(next){
     } catch (error) {
         next(error);
     }
-    console.log(password)
+    console.log(this.password)
 })
 
 

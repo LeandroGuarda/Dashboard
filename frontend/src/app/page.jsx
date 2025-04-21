@@ -24,8 +24,10 @@ const Home = () => {
     </div>
     <div className=' flex items-center justify-center o-6 md:w-3/5 md:px-28 md:py-12'></div>
 
-    <img src='/hero-desktop.png' alt='"Screenshots of the dasboard' width={1000} height={700} className='hidden md:block'/>
-    <img src='/hero-mobile.png' alt='"Screenshots of the dasboard' width={560} height={620} className='block md:hidden'/>
+
+      {/* imagenes del home de muestra */}
+    {/* <img src='/hero-desktop.png' alt='"Screenshots of the dasboard' width={1000} height={700} className='hidden md:block'/>
+    <img src='/hero-mobile.png' alt='"Screenshots of the dasboard' width={560} height={620} className='block md:hidden'/> */}
 
     </div>
    
